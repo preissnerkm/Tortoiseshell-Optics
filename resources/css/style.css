@@ -1,0 +1,141 @@
+/* Base Styles */
+html {
+  font-size: 18px;
+}
+body {
+  font-family: helvetica;
+}
+/* Header Styles */
+
+
+/* Header Styles */
+
+.headercontainer {
+  background-image: url("../images/glasses-bg.png");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+.bannerbox {
+  background-color: cadetblue;
+  display: flex;
+  width: 888px;
+  margin: 0px auto;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+.branding img {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+.call {
+  width: 960px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.call p {
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+/* Icons Styles */
+.icons {
+    max-width: 960px;
+    margin: 0px auto;
+}
+.imagebox {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0px;
+  height: 8rem;
+}
+.image {
+  color: black;
+  padding: 0px 3rem;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 5rem;
+}
+.image.paper img {
+  width: 3.5rem;
+}
+.image.fit img {
+  width: 5rem;
+}
+.image.glasses img {
+  width: 5rem;
+}
+.image p {
+  display: block;
+  padding-top: 0.5em;
+  text-align: center;
+}
+br {
+  line-height: 150%;
+}
+
+
+
+/* Info Styles */
+.infocontainer {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: auto;
+}
+.infobox {
+  width: 35%;
+  padding-right: 5%;
+}
+p.philo {
+  background-color: cadetblue;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+/* Footer Styles */
+.footerbox {
+  max-width: 960px;
+  background-color: azure;
+  display: flex;
+  padding: 4rem 4rem;
+  margin: auto;
+  margin-top: 5rem;
+  align-items: center;
+}
+.footerbox img {
+  margin-right: 1rem;
+  height: 1.5rem;
+}
